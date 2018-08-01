@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/welcome"
+            android:icon="@android:drawable/ic_input_get"
+            android:title="Welcome"/>
+        <item
+            android:id="@+id/changePass"
+            android:icon="@android:drawable/ic_lock_idle_lock"
+            android:title="Change Password"/>
+        <item
+            android:id="@+id/edit_info"
+            android:icon="@android:drawable/ic_menu_edit"
+            android:title="Edit info" />
+        <item
+            android:id="@+id/delete_acc"
+            android:icon="@android:drawable/ic_menu_delete"
+            android:title="Delete Account" />
+    </group>
+
+</menu>

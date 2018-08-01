@@ -1,0 +1,73 @@
+<resources>
+    <string name="app_name">Grafti</string>
+    <string name="btn_search">Search</string>
+    <string name="hint_search">Search here</string>
+    <string name="login">login</string>
+    <string name="signup">SIGN UP</string>
+    <string name="signup_or_login">Sign up or Login</string>
+    <string name="categories">Category: </string>
+    <string name="action_search">Search here</string>
+
+    <string name="hint_name">Type your name here</string>
+    <string name="hint_phoneNumber">Phone number here</string>
+    <string name="hint_Email">Email address here</string>
+    <string name="hint_location">Business location</string>
+    <string name="hint_skill">What kind of work do you do</string>
+    <string name="hint_descr">Short description of what you do</string>
+    <string name="hint_charge">Charge for your services in US$</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_vpassword">Verify Password</string>
+    <string name="btnSubmit">Submit</string>
+    <string name="hint_CityTown">City or Town</string>
+
+    <string name="hint_oldPass">Old Password</string>
+    <string name="hint_newPass">New Password</string>
+    <string name="btnsave">save</string>
+
+    <string name="hint_Email_or_phone">Email or Phone Number</string>
+    <string name="btnLogin">Login</string>
+
+    <string-array name="search_categories">
+        <item>All</item>
+        <item>House Keeping</item>
+        <item>Electronics and Mechanics</item>
+        <item>Fashion and Fabrics</item>
+        <item>Graphics and Design</item>
+        <item>Computers</item>
+        <item>Water and Sanitation</item>
+        <item>Carpentry and Metal work</item>
+        <item>Tutors and Studies</item>
+    </string-array>
+
+    <string-array name="signup_categories">
+        <item>House Keeping</item>
+        <item>Electronics and Mechanics</item>
+        <item>Fashion and Fabrics</item>
+        <item>Graphics and Design</item>
+        <item>Computers</item>
+        <item>Water and Sanitation</item>
+        <item>Carpentry and Metal work</item>
+        <item>Tutors and Studies</item>
+    </string-array>
+    <string name="title_activity_panel">PanelActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_app_info">App info</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="panelWelcome">welcome to your panel
+        You can change your Password, edit your details and do more stuff
+        To activate the drawer just tap on the icon at the top left corner of your screen right before your name.
+        If you face any challenges please contact us for assistance.</string>
+
+    <string name="deleteAcc">Are you sure you want to delete your account</string>
+    <string name="optionYes">Yes</string>
+    <string name="optionNo">No</string>
+
+    <string name="modifyDetails">Change some Details</string>
+
+</resources>

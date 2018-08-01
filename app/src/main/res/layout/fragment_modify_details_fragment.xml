@@ -1,0 +1,91 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="@dimen/activity_horizontal_margin"
+    android:paddingBottom="@dimen/activity_horizontal_margin"
+    android:paddingLeft="@dimen/activity_vertical_margin"
+    android:paddingRight="@dimen/activity_vertical_margin"
+    tools:context="zw.co.grafti.grafti.ModifyDetails_fragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="@string/modifyDetails"
+        android:textColor="@color/green"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:id="@+id/etUserName"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:hint="Change your phone number"
+        android:id="@+id/edModPhone"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Change your Email address"
+        android:inputType="textEmailAddress"
+        android:id="@+id/edModEmail"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Change your City or Town"
+        android:inputType="textEmailAddress"
+        android:id="@+id/edModCityTown"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"
+        android:lines="2"
+        android:hint="change your address or location"
+        android:id="@+id/edModLocation"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"
+        android:lines="3"
+        android:gravity="top|left"
+        android:hint="Edit your description"
+        android:scrollbars="vertical"
+        android:id="@+id/edModDesc"/>
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ModCategory"
+        android:layout_gravity="center_horizontal"
+        android:spinnerMode="dropdown"
+        android:entries="@array/signup_categories"
+        android:background="@color/washed_out_purple"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:hint="@string/hint_charge"
+        android:id="@+id/edModCharge"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btnsave"
+        android:background="@color/purple"
+        android:onClick="accountEdit"
+        android:textColor="@color/white"/>
+
+</LinearLayout>
